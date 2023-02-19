@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 ps -ef | grep x-ui |grep -v grep > /dev/null
 if [ $? != 0 ]
 then
